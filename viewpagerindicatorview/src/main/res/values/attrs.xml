@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- attributes for recycler view indicator custom view -->
+    <declare-styleable name="ViewPagerIndicatorView">
+        <attr name="bigScale" format="float" />
+        <attr name="circleCount" format="integer" />
+        <attr name="color" format="color" />
+        <attr name="padding" format="dimension" />
+        <attr name="radius" format="dimension" />
+        <attr name="showNumbers" format="boolean" />
+        <attr name="spacing" format="dimension" />
+        <attr name="viewPager" format="reference" />
+    </declare-styleable>
+</resources>
