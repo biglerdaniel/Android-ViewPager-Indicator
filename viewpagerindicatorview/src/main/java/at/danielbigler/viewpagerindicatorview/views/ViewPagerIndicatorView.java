@@ -155,6 +155,8 @@ public class ViewPagerIndicatorView extends View implements ViewPager.OnPageChan
                 } else {
                     Log.e(TAG, "ViewPager adapter not found");
                 }
+            } else {
+                throw new NullPointerException("ViewPager reference is invalid!");
             }
         }
     }
